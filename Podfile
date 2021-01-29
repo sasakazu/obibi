@@ -7,7 +7,9 @@ target 'obi' do
 
   # Pods for obi
   
-  pod 'Firebase'
+  pod 'Firebase', '7.2-M1'
+  pod 'Firebase/Auth', '~> 7.2.0-M1'
+  
 
   target 'obiTests' do
     inherit! :search_paths

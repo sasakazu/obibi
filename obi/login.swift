@@ -23,6 +23,36 @@ class login: UIViewController {
     
     @IBAction func login(_ sender: Any) {
         
+
+        
+        guard let email = emailTF.text, let password = passTF.text else {
+              return
+          }
+
+          Auth.auth().signIn(withEmail: email, password: password) { (user, error) in
+              if (user != nil && error == nil) {
+                
+                
+              }
+            
+          }
+        
+        
+    }
+    
+    
+    
+    
+    @IBAction func logout(_ sender: Any) {
+        
+        let firebaseAuth = Auth.auth()
+        
+        do {
+          try firebaseAuth.signOut()
+        } catch let signOutError as NSError {
+          print ("Error signing out: %@", signOutError)
+        }
+          
         
     }
     

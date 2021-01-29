@@ -24,6 +24,21 @@ class signup: UIViewController {
     
 
     @IBAction func signup(_ sender: Any) {
+      
+        
+        guard let email = emailTF.text, let password = passTF.text else {
+              return
+          }
+          
+          Auth.auth().createUser(withEmail: email, password: password) { (user, error) in
+              if (user != nil && error == nil) {
+                  print("register successed")
+                  self.emailTF.text = "";
+                  self.passTF.text = ""
+              } else {
+                  print("register failed")
+              }
+          }
         
         
     }

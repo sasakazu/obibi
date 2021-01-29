@@ -1,0 +1,34 @@
+//
+//  top.swift
+//  obi
+//
+//  Created by 笹倉一也 on 2021/01/29.
+//
+
+import UIKit
+import Firebase
+
+class top: UIViewController {
+
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        let currentUser = Auth.auth().currentUser?.email
+        
+        print(currentUser ?? "no user")
+
+        // Do any additional setup after loading the view.
+    }
+    
+
+    /*
+    // MARK: - Navigation
+
+    // In a storyboard-based application, you will often want to do a little preparation before navigation
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        // Get the new view controller using segue.destination.
+        // Pass the selected object to the new view controller.
+    }
+    */
+
+}
