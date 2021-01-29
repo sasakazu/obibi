@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4FFB206C2BEC14E22A1BA7D5 /* Pods_obi_obiUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90859F3B662E3D0A0FA6EB09 /* Pods_obi_obiUITests.framework */; };
 		736D7BAD25C3F5CD00531033 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736D7BAC25C3F5CD00531033 /* AppDelegate.swift */; };
 		736D7BAF25C3F5CD00531033 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736D7BAE25C3F5CD00531033 /* SceneDelegate.swift */; };
 		736D7BB125C3F5CD00531033 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736D7BB025C3F5CD00531033 /* ViewController.swift */; };
@@ -15,6 +16,11 @@
 		736D7BB925C3F5CE00531033 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 736D7BB725C3F5CE00531033 /* LaunchScreen.storyboard */; };
 		736D7BC425C3F5CE00531033 /* obiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736D7BC325C3F5CE00531033 /* obiTests.swift */; };
 		736D7BCF25C3F5CE00531033 /* obiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736D7BCE25C3F5CE00531033 /* obiUITests.swift */; };
+		736D7BF925C3F99400531033 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 736D7BF825C3F99400531033 /* GoogleService-Info.plist */; };
+		736D7C0125C3FB8600531033 /* login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736D7C0025C3FB8600531033 /* login.swift */; };
+		736D7C0625C3FBC800531033 /* signup.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736D7C0525C3FBC800531033 /* signup.swift */; };
+		84562DA645D247842DE067D8 /* Pods_obi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 54B096AD68FFF8F3EC868545 /* Pods_obi.framework */; };
+		FB03E40317B02FF07788860F /* Pods_obiTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0DBFD750CE95340415966509 /* Pods_obiTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0DBFD750CE95340415966509 /* Pods_obiTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_obiTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3A089AA2ED939E2160DAE068 /* Pods-obi-obiUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obi-obiUITests.release.xcconfig"; path = "Target Support Files/Pods-obi-obiUITests/Pods-obi-obiUITests.release.xcconfig"; sourceTree = "<group>"; };
+		54B096AD68FFF8F3EC868545 /* Pods_obi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_obi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		65AA58DD8B1CAD0E575E49DD /* Pods-obi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obi.release.xcconfig"; path = "Target Support Files/Pods-obi/Pods-obi.release.xcconfig"; sourceTree = "<group>"; };
 		736D7BA925C3F5CD00531033 /* obi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = obi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		736D7BAC25C3F5CD00531033 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		736D7BAE25C3F5CD00531033 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +59,14 @@
 		736D7BCA25C3F5CE00531033 /* obiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = obiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		736D7BCE25C3F5CE00531033 /* obiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = obiUITests.swift; sourceTree = "<group>"; };
 		736D7BD025C3F5CE00531033 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		736D7BF825C3F99400531033 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		736D7C0025C3FB8600531033 /* login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = login.swift; sourceTree = "<group>"; };
+		736D7C0525C3FBC800531033 /* signup.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = signup.swift; sourceTree = "<group>"; };
+		7F46113DAF84A16D8A0865B9 /* Pods-obiTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obiTests.release.xcconfig"; path = "Target Support Files/Pods-obiTests/Pods-obiTests.release.xcconfig"; sourceTree = "<group>"; };
+		90859F3B662E3D0A0FA6EB09 /* Pods_obi_obiUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_obi_obiUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9DCB76EA180D826725CAA741 /* Pods-obi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obi.debug.xcconfig"; path = "Target Support Files/Pods-obi/Pods-obi.debug.xcconfig"; sourceTree = "<group>"; };
+		A390A5DB01A88DF867E2AB88 /* Pods-obi-obiUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obi-obiUITests.debug.xcconfig"; path = "Target Support Files/Pods-obi-obiUITests/Pods-obi-obiUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C35F24403BBBBDBB9F3338CF /* Pods-obiTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-obiTests.debug.xcconfig"; path = "Target Support Files/Pods-obiTests/Pods-obiTests.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +74,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84562DA645D247842DE067D8 /* Pods_obi.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +82,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB03E40317B02FF07788860F /* Pods_obiTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +90,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4FFB206C2BEC14E22A1BA7D5 /* Pods_obi_obiUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +104,8 @@
 				736D7BC225C3F5CE00531033 /* obiTests */,
 				736D7BCD25C3F5CE00531033 /* obiUITests */,
 				736D7BAA25C3F5CD00531033 /* Products */,
+				7D717833F5AECC9289DB0F1B /* Pods */,
+				B6E845BC8A9D3026F9ECC87E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +126,9 @@
 				736D7BAE25C3F5CD00531033 /* SceneDelegate.swift */,
 				736D7BB025C3F5CD00531033 /* ViewController.swift */,
 				736D7BB225C3F5CD00531033 /* Main.storyboard */,
+				736D7C0525C3FBC800531033 /* signup.swift */,
+				736D7C0025C3FB8600531033 /* login.swift */,
+				736D7BF825C3F99400531033 /* GoogleService-Info.plist */,
 				736D7BB525C3F5CE00531033 /* Assets.xcassets */,
 				736D7BB725C3F5CE00531033 /* LaunchScreen.storyboard */,
 				736D7BBA25C3F5CE00531033 /* Info.plist */,
@@ -128,6 +154,29 @@
 			path = obiUITests;
 			sourceTree = "<group>";
 		};
+		7D717833F5AECC9289DB0F1B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9DCB76EA180D826725CAA741 /* Pods-obi.debug.xcconfig */,
+				65AA58DD8B1CAD0E575E49DD /* Pods-obi.release.xcconfig */,
+				A390A5DB01A88DF867E2AB88 /* Pods-obi-obiUITests.debug.xcconfig */,
+				3A089AA2ED939E2160DAE068 /* Pods-obi-obiUITests.release.xcconfig */,
+				C35F24403BBBBDBB9F3338CF /* Pods-obiTests.debug.xcconfig */,
+				7F46113DAF84A16D8A0865B9 /* Pods-obiTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		B6E845BC8A9D3026F9ECC87E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				54B096AD68FFF8F3EC868545 /* Pods_obi.framework */,
+				90859F3B662E3D0A0FA6EB09 /* Pods_obi_obiUITests.framework */,
+				0DBFD750CE95340415966509 /* Pods_obiTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +184,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 736D7BD325C3F5CE00531033 /* Build configuration list for PBXNativeTarget "obi" */;
 			buildPhases = (
+				69890E5DC29C0E0F91BF623D /* [CP] Check Pods Manifest.lock */,
 				736D7BA525C3F5CD00531033 /* Sources */,
 				736D7BA625C3F5CD00531033 /* Frameworks */,
 				736D7BA725C3F5CD00531033 /* Resources */,
+				F9DC8CFED83CE9C1106EEC0D /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -152,6 +203,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 736D7BD625C3F5CE00531033 /* Build configuration list for PBXNativeTarget "obiTests" */;
 			buildPhases = (
+				081E2F2FC07912F422FDE5C9 /* [CP] Check Pods Manifest.lock */,
 				736D7BBB25C3F5CE00531033 /* Sources */,
 				736D7BBC25C3F5CE00531033 /* Frameworks */,
 				736D7BBD25C3F5CE00531033 /* Resources */,
@@ -170,9 +222,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 736D7BD925C3F5CE00531033 /* Build configuration list for PBXNativeTarget "obiUITests" */;
 			buildPhases = (
+				F7F228CD4C246CA217EA2830 /* [CP] Check Pods Manifest.lock */,
 				736D7BC625C3F5CE00531033 /* Sources */,
 				736D7BC725C3F5CE00531033 /* Frameworks */,
 				736D7BC825C3F5CE00531033 /* Resources */,
+				8667AB7C5962420634F18B67 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -234,6 +288,7 @@
 				736D7BB925C3F5CE00531033 /* LaunchScreen.storyboard in Resources */,
 				736D7BB625C3F5CE00531033 /* Assets.xcassets in Resources */,
 				736D7BB425C3F5CD00531033 /* Main.storyboard in Resources */,
+				736D7BF925C3F99400531033 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,6 +308,109 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		081E2F2FC07912F422FDE5C9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-obiTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69890E5DC29C0E0F91BF623D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-obi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8667AB7C5962420634F18B67 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-obi-obiUITests/Pods-obi-obiUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-obi-obiUITests/Pods-obi-obiUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-obi-obiUITests/Pods-obi-obiUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7F228CD4C246CA217EA2830 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-obi-obiUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9DC8CFED83CE9C1106EEC0D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-obi/Pods-obi-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-obi/Pods-obi-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-obi/Pods-obi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		736D7BA525C3F5CD00531033 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -260,7 +418,9 @@
 			files = (
 				736D7BB125C3F5CD00531033 /* ViewController.swift in Sources */,
 				736D7BAD25C3F5CD00531033 /* AppDelegate.swift in Sources */,
+				736D7C0625C3FBC800531033 /* signup.swift in Sources */,
 				736D7BAF25C3F5CD00531033 /* SceneDelegate.swift in Sources */,
+				736D7C0125C3FB8600531033 /* login.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +593,7 @@
 		};
 		736D7BD425C3F5CE00531033 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9DCB76EA180D826725CAA741 /* Pods-obi.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -452,6 +613,7 @@
 		};
 		736D7BD525C3F5CE00531033 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 65AA58DD8B1CAD0E575E49DD /* Pods-obi.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,6 +633,7 @@
 		};
 		736D7BD725C3F5CE00531033 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C35F24403BBBBDBB9F3338CF /* Pods-obiTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -493,6 +656,7 @@
 		};
 		736D7BD825C3F5CE00531033 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F46113DAF84A16D8A0865B9 /* Pods-obiTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -515,6 +679,7 @@
 		};
 		736D7BDA25C3F5CE00531033 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A390A5DB01A88DF867E2AB88 /* Pods-obi-obiUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -535,6 +700,7 @@
 		};
 		736D7BDB25C3F5CE00531033 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3A089AA2ED939E2160DAE068 /* Pods-obi-obiUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

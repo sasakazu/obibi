@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>354332430559-oq9dtcfb8kqlauil2kms6nog2g4bdeea.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.354332430559-oq9dtcfb8kqlauil2kms6nog2g4bdeea</string>
+	<key>API_KEY</key>
+	<string>AIzaSyBr18yXcTrK82cq0CYteX6j1EbjaCdQ5bk</string>
+	<key>GCM_SENDER_ID</key>
+	<string>354332430559</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>kazuyasasakura.obi</string>
+	<key>PROJECT_ID</key>
+	<string>obibi-715cc</string>
+	<key>STORAGE_BUCKET</key>
+	<string>obibi-715cc.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:354332430559:ios:c0697922c9fcdc91b7d96a</string>
+</dict>
+</plist>
